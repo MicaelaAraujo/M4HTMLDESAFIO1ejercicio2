@@ -1,0 +1,61 @@
+/* Importar la fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=NOMBRE_FUENTE&display=swap');
+
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.content {
+  width: 30%;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 48pt;
+  font-weight: bold;
+  color: #0a2ff1;
+}
+
+p {
+  font-size: 24pt;
+  line-height: 1.5;
+}
+
+.image {
+  width: 30%;
+  margin: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.score {
+  width: 30%;
+  margin: 10px;
+}
